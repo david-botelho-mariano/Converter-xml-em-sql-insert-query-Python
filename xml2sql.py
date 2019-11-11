@@ -56,7 +56,7 @@ def gerar_query_insert(db_nome, dados_dict):
 	print(insert_query)
 	#criacao da query insert
 
-	f = open("insert-query.sql", "a")
+	f = open("generated-insert-query.sql", "a")
 	f.write(insert_query + "\n")
 	f.close()
 	#salvar em um arquivo	
